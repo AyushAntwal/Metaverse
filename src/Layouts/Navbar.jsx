@@ -14,7 +14,7 @@ function Navbar() {
             style={{ textDecoration: "none" }}
           >
             <p className="mx-2"><Link to='/' >Home</Link></p>
-            <p className="mx-2">About</p>
+            <p className="mx-2"><Link to="store" >About</Link></p>
             <p className="mx-2"><Link to="store" >Store</Link></p>
           </ul>
         </div>

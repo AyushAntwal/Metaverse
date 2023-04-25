@@ -14,6 +14,7 @@ root.render(
     <Routes>
       <Route index element={<App />} />
       <Route path="store" element={<CodeStore />} />
+      <Route path="about" element={<CodeStore />} />
     </Routes>
   </BrowserRouter>
 );
